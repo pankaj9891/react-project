@@ -1,0 +1,7 @@
+@font-face {
+    font-family: VC Honey;
+    src: url(../../assets/fonts/VCHoney-Regular.ttf);
+}
+.heading h2{
+    font-family: "VC Honey", Helvetica, Arial, sans-serif;
+}

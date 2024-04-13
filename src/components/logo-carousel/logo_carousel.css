@@ -1,0 +1,27 @@
+.logo{
+    width: 100px;
+}
+
+
+@keyframes goingon {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+@keyframes goingon2 {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-90%);
+    }
+}
+.car1{
+    animation: 60s linear goingon infinite;
+}
+.car2{
+    animation: 60s linear goingon2 infinite;
+}
